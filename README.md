@@ -1,0 +1,1 @@
+# Mount-Partation-in-Ubntu-Permanently
