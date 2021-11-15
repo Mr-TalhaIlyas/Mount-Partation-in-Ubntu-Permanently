@@ -6,7 +6,7 @@ lsblk
 ```
 to see all the available storage devices available in your system.
 
-![alt text](s1.png)
+![alt text](https://github.com/Mr-TalhaIlyas/Mount-Partation-in-Ubntu-Permanently/blob/main/Pictures/s1.png)
 
 ## Partation using `Fdisk` command
 
