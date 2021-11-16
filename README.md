@@ -51,7 +51,7 @@ or by
 ```
 lsblk
 ```
-s7.png)
+![alt text](https://github.com/Mr-TalhaIlyas/Mount-Partation-in-Ubntu-Permanently/blob/main/Pictures/s7.png)
 
 Once a partition has been created with the parted of fdisk command, format it before using it.
 
