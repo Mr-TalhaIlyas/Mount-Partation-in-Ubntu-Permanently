@@ -15,7 +15,7 @@ Run the following command to list all existing partitions:
 ```
 sudo fdisk -l
 ```
-s2.png)
+![alt text](https://github.com/Mr-TalhaIlyas/Mount-Partation-in-Ubntu-Permanently/blob/main/Pictures/s2.png)
 
 Select the storage disk you want to create partitions on by running the following command:
 ```
