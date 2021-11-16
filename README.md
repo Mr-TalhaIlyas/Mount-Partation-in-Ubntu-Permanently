@@ -38,7 +38,7 @@ The system created the partition, but the changes are not written on the disk.
 
 To write the changes on disk, run the `w` command:
 
-s5.png)
+![alt text](https://github.com/Mr-TalhaIlyas/Mount-Partation-in-Ubntu-Permanently/blob/main/Pictures/s5.png)
 
 Verify that the partition is created by running the following command:
 
