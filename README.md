@@ -72,7 +72,7 @@ After that, mount the partition by entering:
 sudo mount -t auto /dev/sda1 /data_hdd
 ```
 These lines wont output anything, check the mount point by typing `lsblk`
-s9.png)
+![alt text](https://github.com/Mr-TalhaIlyas/Mount-Partation-in-Ubntu-Permanently/blob/main/Pictures/s9.png)
 
 ## Permanent Mount
 
