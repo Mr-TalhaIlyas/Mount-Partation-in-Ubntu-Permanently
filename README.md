@@ -59,7 +59,7 @@ Format the partition by running the following command: (out mounted partation is
 ```
 sudo mkfs -t ext4 /dev/sda1
 ```
-s8.png)
+![alt text](https://github.com/Mr-TalhaIlyas/Mount-Partation-in-Ubntu-Permanently/blob/main/Pictures/s8.png)
 
 To begin interacting with the disk, create a mount point and mount the partition to it.
 
