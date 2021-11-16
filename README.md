@@ -93,7 +93,7 @@ and then enter the follwoign things in the file
 UUID=<enter your unique UUID> <mount point> <file system> <options> <dump> <fsck>
 in my case as shown in above images it'll look something like
 
-s11.png)
+![alt text](https://github.com/Mr-TalhaIlyas/Mount-Partation-in-Ubntu-Permanently/blob/main/Pictures/s11.png)
   
 A simple /etc/fstab, using file system UUIDs: (nore on this [here](https://wiki.archlinux.org/title/Fstab))
 
