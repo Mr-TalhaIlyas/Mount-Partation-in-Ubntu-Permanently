@@ -21,7 +21,7 @@ Select the storage disk you want to create partitions on by running the followin
 ```
 sudo fdisk /dev/sda
 ```
-s3.png)
+![alt text](https://github.com/Mr-TalhaIlyas/Mount-Partation-in-Ubntu-Permanently/blob/main/Pictures/s3.png)
 
 Create a New Partition;
 
