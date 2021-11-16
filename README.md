@@ -82,7 +82,7 @@ sudo blkid
 ```
 to get the UUID of all the storage devices on your system. copy the UUID of the newly mounted drive. We will use it while editing `fstab`
 
-s10.png)
+![alt text](https://github.com/Mr-TalhaIlyas/Mount-Partation-in-Ubntu-Permanently/blob/main/Pictures/s10.png)
 
 You need ot edit `/etc/fstab` to make the partation mount permanently.
 first open it by
