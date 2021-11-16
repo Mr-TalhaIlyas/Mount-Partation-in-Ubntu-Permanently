@@ -30,7 +30,7 @@ Create a New Partition;
 3. then again press `enter` to select a default value -> this will define the 1st sector of paration.
 4. enter the value you want to mount on the disk, e.g. in my case I want to mount all the disk memory and my disk is 1TB so I'll type `+1000GB` and press `enter`. -> this will define the last sector of paration
 
-s4.png)
+![alt text](https://github.com/Mr-TalhaIlyas/Mount-Partation-in-Ubntu-Permanently/blob/main/Pictures/s4.png)
 
 Note: if you are asked to remove signature  then just enter `yes` to proceed.
 
