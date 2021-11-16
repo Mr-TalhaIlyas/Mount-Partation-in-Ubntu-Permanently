@@ -45,7 +45,7 @@ Verify that the partition is created by running the following command:
 ```
 sudo fdisk -l
 ```
-s6.png)
+![alt text](https://github.com/Mr-TalhaIlyas/Mount-Partation-in-Ubntu-Permanently/blob/main/Pictures/s6.png)
 
 or by 
 ```
