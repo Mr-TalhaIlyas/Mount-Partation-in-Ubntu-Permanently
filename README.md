@@ -1,3 +1,4 @@
+[![Linux](https://svgshare.com/i/Zhy.svg)](https://svgshare.com/i/Zhy.svg)
 # Mount-Partation-in-Ubntu-Permanently
 
 1. Type command 
