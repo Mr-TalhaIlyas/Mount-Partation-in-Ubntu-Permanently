@@ -113,4 +113,4 @@ UUID=b411dc99-f0a0-4c87-9e05-184977be8539 /home ext4   noatime   0      2
     <fsck> sets the order for file system checks at boot time; see fsck(8). For the root device it should be 1. For other partitions it should be 2, or 0 to disable checking.
       
 ### Reference 
-1. https://phoenixnap.com/kb/linux-create-partition  (Doesn't involve instructions for permanent mounting)
+1. [Phoenixnap](https://phoenixnap.com/kb/linux-create-partition)  Doesn't involve instructions for permanent mounting.
