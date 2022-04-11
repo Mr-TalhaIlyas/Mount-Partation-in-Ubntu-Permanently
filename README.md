@@ -119,8 +119,16 @@ mkfs -t ext4 /dev/vdb1
 mkfs -t xfs /dev/vdb1
 ```
 Run the following command to create a mount point named /test:
-``
+```
 mkdir /data_hdd_16TB
+```
+Run the following command to mount the /dev/vdb1 partition to /test:
+```
+mount /dev/sdb1 /data_hdd_16TB
+```
+Run the following command to view the current disk space and usage:
+```
+df -h
 ```
 ## Make Mount Permanent 
 --------------
