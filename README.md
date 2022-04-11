@@ -106,6 +106,8 @@ align-check optimal 1
 ```
 Run the following `print` command to view the partition table and then `quit`.
 
+![alt text](https://github.com/Mr-TalhaIlyas/Mount-Partation-in-Ubntu-Permanently/blob/main/Pictures/2tb1.png)
+
 Run the following command to enable the system to re-read the partition table:
 ```
 partprobe
