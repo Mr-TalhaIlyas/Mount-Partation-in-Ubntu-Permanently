@@ -132,6 +132,11 @@ Run the following command to view the current disk space and usage:
 ```
 df -h
 ```
+⚠ If you get a permission denied error on the newly mounted partation then run the following command to allow permissions
+  
+```
+sudo chmod 777 /data_hdd_16TB/
+```
 ## <a name="pm">Make Mount Permanent</a> 
 --------------
 type 
