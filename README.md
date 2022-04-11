@@ -96,7 +96,7 @@ in my case as shown in above images it'll look something like
 
 ![alt text](https://github.com/Mr-TalhaIlyas/Mount-Partation-in-Ubntu-Permanently/blob/main/Pictures/s11.png)
   
-A simple /etc/fstab, using file system UUIDs: (nore on this [here](https://wiki.archlinux.org/title/Fstab))
+A simple /etc/fstab, using file system UUIDs: (more on this [here](https://wiki.archlinux.org/title/Fstab))
 
 `/etc/fstab`
 ```
