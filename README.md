@@ -114,3 +114,4 @@ UUID=b411dc99-f0a0-4c87-9e05-184977be8539 /home ext4   noatime   0      2
       
 ### Reference 
 1. [Phoenixnap](https://phoenixnap.com/kb/linux-create-partition)  Doesn't involve instructions for permanent mounting.
+2. [AliBabaCloud](https://www.alibabacloud.com/help/en/elastic-compute-service/latest/partition-and-format-a-data-disk-larger-than-2-tib-in-size)
