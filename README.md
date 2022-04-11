@@ -5,7 +5,7 @@
 * [Mount Drives > 2TB](#name=md3)
 * [Make mount permanent](#name=pm)
 
-### <a name="md2">Mount Drives <= 2TB</a>
+### <a name="md2">Mount Drives = 2TB</a>
 ------
 1. Type command 
 ```
@@ -81,7 +81,7 @@ sudo mount -t auto /dev/sda1 /data_hdd
 These lines wont output anything, check the mount point by typing `lsblk`
 ![alt text](https://github.com/Mr-TalhaIlyas/Mount-Partation-in-Ubntu-Permanently/blob/main/Pictures/s9.png)
 
-## <a name="md3">Mount Drives > 2TB</a>
+## <a name="md3">Mount Drives  2TB</a>
 -------------------
 Run the following command:
 ```
