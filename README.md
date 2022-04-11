@@ -1,11 +1,11 @@
 [![Linux](https://svgshare.com/i/Zhy.svg)](https://svgshare.com/i/Zhy.svg)  [![made-with-bash](https://img.shields.io/badge/Made%20with-Bash-1f425f.svg)](https://www.gnu.org/software/bash/) [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FMr-TalhaIlyas%2FMount-Partation-in-Ubntu-Permanently&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 # Mount-Partation-in-Ubntu-Permanently
 
-* Mount Drives <= 2TB
-* Mount Drives > 2TB 
-* Make mount permanent
+* [Mount Drives <= 2TB](#name=md2)
+* [Mount Drives > 2TB](#name=md3)
+* [Make mount permanent](#name=pm)
 
-### Mount Drives <= 2TB
+### <a name="md2">Mount Drives <= 2TB</a>
 ------
 1. Type command 
 ```
@@ -81,7 +81,7 @@ sudo mount -t auto /dev/sda1 /data_hdd
 These lines wont output anything, check the mount point by typing `lsblk`
 ![alt text](https://github.com/Mr-TalhaIlyas/Mount-Partation-in-Ubntu-Permanently/blob/main/Pictures/s9.png)
 
-## Mount Drives > 2TB 
+## <a name="md3">Mount Drives > 2TB</a>
 -------------------
 Run the following command:
 ```
@@ -132,7 +132,7 @@ Run the following command to view the current disk space and usage:
 ```
 df -h
 ```
-## Make Mount Permanent 
+## <a name="pm">Make Mount Permanent</a> 
 --------------
 type 
 ```
