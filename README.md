@@ -1,9 +1,9 @@
 [![Linux](https://svgshare.com/i/Zhy.svg)](https://svgshare.com/i/Zhy.svg)  [![made-with-bash](https://img.shields.io/badge/Made%20with-Bash-1f425f.svg)](https://www.gnu.org/software/bash/) [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FMr-TalhaIlyas%2FMount-Partation-in-Ubntu-Permanently&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 # Mount-Partation-in-Ubntu-Permanently
 
-## Mount Drives <= 2TB
-## Mount Drives > 2TB 
-## Make mount permanent
+* Mount Drives <= 2TB
+* Mount Drives > 2TB 
+* Make mount permanent
 
 ### Mount Drives <= 2TB
 ------
@@ -81,8 +81,49 @@ sudo mount -t auto /dev/sda1 /data_hdd
 These lines wont output anything, check the mount point by typing `lsblk`
 ![alt text](https://github.com/Mr-TalhaIlyas/Mount-Partation-in-Ubntu-Permanently/blob/main/Pictures/s9.png)
 
-## Make Mount Permanent 
+## Mount Drives > 2TB 
+-------------------
+Run the following command:
+```
+fdisk -l
+```
+Use the Parted tool to partition the data disk.
+Run the following command to start partitioning:
+```
+parted /dev/vdb
+```
+Run the following command to convert the partition format from MBR to GPT:
+```
+mklabel gpt
+```
+Run the following command to create a primary partition and specify the start and end sectors for the partition:
+```
+mkpart primary 1 100%
+```
+Run the following command to check whether the partition is aligned:
+```
+align-check optimal 1
+```
+Run the following `print` command to view the partition table and then `quit`.
 
+Run the following command to enable the system to re-read the partition table:
+```
+partprobe
+```
+
+Create an  file system.
+```
+// for ext4 file system
+mkfs -t ext4 /dev/vdb1
+// for xfs file system
+mkfs -t xfs /dev/vdb1
+```
+Run the following command to create a mount point named /test:
+``
+mkdir /data_hdd_16TB
+```
+## Make Mount Permanent 
+--------------
 type 
 ```
 sudo blkid
