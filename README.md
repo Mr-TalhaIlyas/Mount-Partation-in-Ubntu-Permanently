@@ -147,17 +147,14 @@ to get the UUID of all the storage devices on your system. copy the UUID of the 
 
 ![alt text](https://github.com/Mr-TalhaIlyas/Mount-Partation-in-Ubntu-Permanently/blob/main/Pictures/s10.png)
 
-You need ot edit `/etc/fstab` to make the partation mount permanently.
-first open it by
-```
-sudo gedit /etc/fstab
-```
-and then enter the follwoign things in the file
-UUID=<enter your unique UUID> <mount point> <file system> <options> <dump> <fsck>
-in my case as shown in above images it'll look something like
-
-![alt text](https://github.com/Mr-TalhaIlyas/Mount-Partation-in-Ubntu-Permanently/blob/main/Pictures/s11.png)
-  
+ *maske sure to change the your `mount dir`*
+ ```
+ // add the UUID in /etc/fstab
+ echo `blkid /dev/vdb1 | awk '{print $2}' | sed 's/\"//g'` /data_hdd_16TB ext4 defaults 0 0 >> /etc/fstab
+ 
+ // verify by prinint
+ cat /etc/fstab
+ ```
 A simple /etc/fstab, using file system UUIDs: (more on this [here](https://wiki.archlinux.org/title/Fstab))
 
 `/etc/fstab`
